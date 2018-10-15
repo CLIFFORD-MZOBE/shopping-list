@@ -45,5 +45,18 @@
   <!-- The main bundle js is generated during the build process -->
   <script src="build/main.js"></script>
 
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDlGoGBGqfqkA09IGHiHjtLvipxqgwM8Xg",
+      authDomain: "shopping-49237.firebaseapp.com",
+      databaseURL: "https://shopping-49237.firebaseio.com",
+      projectId: "shopping-49237",
+      storageBucket: "shopping-49237.appspot.com",
+      messagingSenderId: "291946361235"
+    };
+    firebase.initializeApp(config);
+  </script>
 </body>
 </html>
